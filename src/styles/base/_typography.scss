@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Jost* Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/Jost500Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Jost* Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/Jost700Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Jost* Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/Jost800Heavy.woff") format("woff");
+}
+
+html,
+body {
+  font-family: "Jost* Medium";
+  font-size: 13px;
+}
+
+h2 {
+  font-size: 48px;
+  @media (max-width: 640px) {
+    font-size: 24px;
+  }
+}
+
+h3 {
+  font-size: 30px;
+  @media (max-width: 640px) {
+    font-size: 16px;
+  }
+}

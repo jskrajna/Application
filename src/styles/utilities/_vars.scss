@@ -1,0 +1,16 @@
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1326px
+) !default;
+
+$primary: #263a49;
+$grey: #454545;
+
+$theme-colors: (
+  grey: $grey,
+);
+
+
+$font-size-base: 1rem;
