@@ -8,6 +8,9 @@
 </head>
 
 <body>
+  <div class="scroll-arrow hide border border-dark rounded-circle d-flex align-items-center justify-content-center position-fixed bg-white">
+    <i class="fas fa-arrow-up"></i>
+  </div>
   <header>
     <nav class="nav row navbar fixed-top pt-4">
       <div class="container">
@@ -53,8 +56,10 @@
     </nav>
   </header>
   <section class="hero">
-    <div class="hero__image--mobile cover w-100 d-block d-md-none" style="background-image: url('https://via.placeholder.com/1920x550?text=1920x550')"></div>
-    <img class="hero__image img-fluid w-100 d-none d-md-block" src="https://via.placeholder.com/1920x550?text=1920x550" alt="hero image">
+    <div class="hero__image--mobile cover w-100 d-block d-md-none"
+      style="background-image: url('https://via.placeholder.com/1920x550?text=1920x550')"></div>
+    <img class="hero__image img-fluid w-100 d-none d-md-block" src="https://via.placeholder.com/1920x550?text=1920x550"
+      alt="hero image">
   </section>
   <section class="carousel py-5 bg-primary">
     <div class="container">
@@ -277,7 +282,7 @@
 
       <div class="row justify-content-between mt-4">
         <div class="col-auto">
-          <p>©2019 Zonex All rights reserved</p>
+          <p>©<span class="copyright-year">2019</span> Zonex All rights reserved</p>
         </div>
         <div class="col-auto">
           <img src="../dist/images/payment.svg" alt="payment methods">

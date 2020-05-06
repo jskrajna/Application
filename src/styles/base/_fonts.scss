@@ -1,3 +1,10 @@
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+//Adapt the path to be relative to your main.scss file
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+
+
 @font-face {
   font-family: "zonex";
   src: url("../assets/fonts/zonex.eot?39498647");
@@ -7,6 +14,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 
 
 .icon-angle-down:before { content: '\e801'; } /* '' */
